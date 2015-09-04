@@ -5,7 +5,7 @@ This repository contains **Dockerfile** of [Nginx](http://nginx.org/) for [Docke
 
 ## Base Docker Image
 
-* [dockerfile/centos]
+* [dockerfile/centos](https://hub.docker.com/centos/)
 
 ## Installation
 
