@@ -1,7 +1,7 @@
 ## Nginx Dockerfile
 
 
-This repository contains **Dockerfile** of [Nginx](http://nginx.org/) for [Docker](https://www.docker.com/)'s [automated build] published to the public [Docker Hub Registry](https://registry.hub.docker.com/)
+This repository contains **Dockerfile** of [Nginx](http://nginx.org/) for [Docker](https://www.docker.com/)'s [automated build]() published to the public [Docker Hub Registry](https://registry.hub.docker.com/)
 
 ## Base Docker Image
 
@@ -9,7 +9,8 @@ This repository contains **Dockerfile** of [Nginx](http://nginx.org/) for [Docke
 
 ## Installation
 
-Build an image from Dockerfile: `docker build -t nginx-centos .` 
+1. Install [Docker](https://docs.docker.com/installation/)
+2. Build an image from Dockerfile: `docker build -t nginx-centos .` 
 
 ### Usage
 
