@@ -1,8 +1,7 @@
 ## Nginx Dockerfile
 
 
-This repository contains **Dockerfile** of [Nginx](http://nginx.org/) for [Docker](https://www.docker.com/)'s [automated build]() published to the public [Docker Hub Registry](https://registry.hub.docker.com/)
-
+This repository contains **Dockerfile** of [Nginx](http://nginx.org/) for [Docker](https://www.docker.com/)'s [automated build]() published to the public [Docker Hub Registry](https://registry.hub.docker.com/) [![](https://badge.imagelayers.io/curratore/nginx-centos:latest.svg)](https://imagelayers.io/?images=curratore/nginx-centos:latest) [![Circle CI](https://circleci.com/gh/curratore/dockerfiles/tree/master.svg?style=svg)](https://circleci.com/gh/curratore/dockerfiles/tree/master)
 ## Base Docker Image
 
 * [dockerfile/centos](https://hub.docker.com/centos/)
