@@ -9,7 +9,7 @@ This repository contains **Dockerfile** of [Nginx](http://nginx.org/) for [Docke
 ## Installation
 
 1. Install [Docker](https://docs.docker.com/installation/)
-2. Build an image from Dockerfile: `docker build -t nginx-centos .` 
+2. Build an image from Dockerfile: `docker build -t nginx-centos .`
 
 ### Usage
 
