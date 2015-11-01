@@ -1,0 +1,1 @@
+[![](https://badge.imagelayers.io/curratore/dnsmasq:latest.svg)](https://imagelayers.io/?images=curratore/dnsmasq:latest 'Get your own badge on imagelayers.io')
