@@ -2,12 +2,10 @@ FROM centos:latest
 
 MAINTAINER frodriguezd@gmail.com
 
+ADD http://nginx.org/keys/nginx_signing.key /etc/yum/
+RUN rpm --import /etc/yum/nginx_signing.key 
 
-COPY etc/yum.repos.d/nginx.repo /etc/yum.repos.d/nginx.repo
-RUN yum install wget -y && \
-	wget http://nginx.org/keys/nginx_signing.key && \
-	rpm --import nginx_signing.key
-
+RUN rpm -Uvh http://nginx.org/packages/centos/7/noarch/RPMS/nginx-release-centos-7-0.el7.ngx.noarch.rpm
 RUN yum update -y && yum install nginx -y
 
 RUN ln -sf /dev/stdout /var/log/nginx/access.log
